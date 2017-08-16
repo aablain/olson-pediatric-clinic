@@ -1,0 +1,123 @@
+"patient": [
+  {
+    "pagename": "appointments",
+    "pagetitle": "Appointment and Scheduling Information",
+    "sections": [
+      {
+        "sectionTitle": "",
+        "sectionContent": [
+          "We are accepting new patients from birth to age 18.",
+          "Our staff is here to assist you in scheduling of wellness exams, non-urgent appointments and same day sick visits. If you are unsure if your child needs to be seen right away, an RN will return your call and advise you. Phone lines open at 8:15 AM.",
+          "We are in the office Monday-Friday, weekends and holidays. Extended evening hours are available for your sick child."
+        ]
+      },
+      {
+        "sectionTitle": "Routine Well-Child Visits",
+        "sectionContent": [
+          "Please schedule routine well-child visits several weeks in advance, making sure the appointment is scheduled on or after the child’s appropriate age for the visit. Cancellations need to occur 24 hours in advance, allowing another child to take the visit time."
+        ]
+      },
+      {
+        "sectionTitle": "Urgent Care",
+        "sectionContent": [
+          "Being available for our patients with urgent, non-emergency medical needs is integral to our comprehensive care commitment. Sick visits that need to be seen on a same-day basis should be called in as early as possible. We will do our best to schedule with your primary pediatrician, but if they are not available we can schedule you with one of our other doctors."
+        ]
+      },
+      {
+        "sectionTitle": "Location",
+        "sectionContent": [
+          "16463 Boones Ferry Road, Suite 400",
+          "Lake Oswego, OR 97035"
+        ]
+      }
+    ]
+  },
+  {
+    "pagename": "billing-insurance",
+    "pagetitle": "Billing and Insurance",
+    "sections": [
+      {
+        "sectionTitle": "Billing",
+        "sectionContent": [
+          "Our billing office is open from 8:00 AM- 5:00 pm Monday-Friday. The department is open and accessible, and the staff is available to answer any questions about your account and insurance."
+        ]
+      },
+      {
+        "sectionTitle": "Payments",
+        "sectionContent": [
+          "To make payments securely online, simply click on the Easy Pay Solutions logo:"
+        ]
+      },
+      {
+        "sectionTitle": "Insurance",
+        "sectionContent": [
+          "We recommend that you are aware of your insurance coverage and specific benefits, limitations and financial responsibilities. With thousands of insurance companies and benefit plans, we are unable to know the details of each individual plan. We attempt to provide care within your insurance benefit allowances, however; our primary concern is to recommend the medically appropriate care for your child.",
+          "As a courtesy to our patients, we will bill your insurance upon receipt of a current insurance card. To assure maximum benefits, please bring your insurance card to every visit. Often, important numbers change, so inform us if you receive a new card, and whether it is from a new company or the same one.",
+          "Co-pays are due at the time of service. This is an agreement between you and your insurance company. We accept cash, personal checks, and most major credit cards for co-pays and account payments.",
+          "If you are without insurance and would like to pay for your visit the same day, we offer a 15% discount.",
+          "Please review our Financial and Credit Policy, on the Forms page.  If you have questions about any of our financial policies please contact our billing department."
+        ]
+      },
+      {
+        "sectionTitle": "Referrals",
+        "sectionContent": [
+          "TMany insurance plans require referral or authorizations. Please contact our referral department at 503-635-3743, prior to having services performed."
+        ]
+      }
+    ]
+  },
+  {
+    "pagename": "patient-forms",
+    "pagetitle": "Patient Forms",
+    "sections": [
+      {
+        "sectionTitle": "The forms below are in Adobe PDF format. Please complete the forms online.",
+        "sectionContent": [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "sectionContent": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "pagename": "",
+    "pagetitle": "",
+    "sections": [
+      {
+        "sectionTitle": "",
+        "sectionContent": [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "sectionContent": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "pagename": "",
+    "pagetitle": "",
+    "sections": [
+      {
+        "sectionTitle": "",
+        "sectionContent": [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "sectionContent": [
+          ""
+        ]
+      }
+    ]
+  }
+]

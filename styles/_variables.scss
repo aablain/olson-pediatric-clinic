@@ -1,0 +1,47 @@
+// Colors -------------------
+
+$light: #FFFFFF;
+$dark: #0E151B;
+$green: #42B137;
+
+$first: 'Kalam', cursive;
+$second: 'Gochi Hand', cursive;
+$third: 'Rancho', cursive;
+$body-font: 'Roboto', sans-serif;
+
+// Adjunct ------------------
+
+$container-max-width: 1000px;
+$comma-space: -15px;
+$nav-item-height: 54px;
+$transform-transition: transform ease-in-out 180ms;
+$animation-timer: 200ms;
+
+// Media Queries ------------
+
+$mobile: "screen and (max-width: 600px)";
+$tablet: "screen and (max-width: 835px)";
+$tablet-roof: "screen and (min-width: 836px)";
+$tablet-floor: "screen and (min-width: 601px)";
+$footer-break: "screen and (max-width: 880px)";
+
+// Animations ---------------
+
+@-webkit-keyframes slideFromLeft {
+  0% { left: 10px;}
+  100% { left: $comma-space;}
+}
+
+@-webkit-keyframes slideFromRight {
+  0% { right: 10px;}
+  100% { right: $comma-space;}
+}
+
+@-webkit-keyframes menuDrop {
+  0% { max-height: 0px; overflow: hidden;}
+  100% { max-height: 800px; overflow: hidden;}
+}
+
+body {
+  font-family: $body-font;
+}

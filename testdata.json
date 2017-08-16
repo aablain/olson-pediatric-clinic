@@ -1,0 +1,334 @@
+
+  {
+    "about" : {
+      "history": {
+        "pagename": "history",
+        "title": "Clinic History",
+        "content": [
+          "Dr. Donald Palmer founded the Olson Pediatric Clinic in 1972.  It was the first pediatric office in the Lake Grove area of Lake Oswego.  From the beginning, Dr. Palmer set the highest possible standard for his clinic.  He hired only Registered Nurses for his clinical staff, a policy that continues to this day.  He believed pediatric care should be both comprehensive and personal, that the care of every patient should be individualized, and that every patient should be treated like family.  He famously knew all his patients, and their parents, by name.  As his practice grew, he was careful to assure that none of these principles were compromised, eventually settling on a maximum size of five or six partners for the clinic.  This seemed to be the ideal size and structure to best serve his patients for the future.",
+          "Olson Pediatric Clinic shall be forever grateful to Dr. Palmer as we continue to serve the medical needs of the children in our community."
+        ],
+        "imageURL": ""
+      },
+      "clinic": {
+        "pagename": "clinic-basics",
+        "title": "Clinic Basics",
+        "content": [
+          "Olson Pediatric Clinic is truly unique. Our small, caring atmosphere ensures that we will spend the time needed to know and serve your family while offering state-of-the-art healthcare to your children.",
+          "We have office hours 364 days per year and offer evening appointments every weeknight.",
+          "Our clinic boasts on-site full service laboratory services.",
+          "Each of our six board certified pediatricians works with a pediatric-trained RN (registered nurse) instead of medical assistants to ensure the highest quality professionals are available in each clinical and telephone encounter.",
+          "Our front office staff answers your phone calls — you will not reach an automated answering phone tree. You are likely to recognize their voices as our staff is committed to the mission of our clinic; most of them have been part of our family over 10 years.",
+          "Our billing department is not outsourced or hidden in an office. The department is open and accessible allowing you to talk face-to-face with our specialists. They are eager to answer your questions and help you interface with insurance companies.",
+          "We are proud to announce that in 2013 we earned the designation of Oregon Patient-Centered Primary Care Medical Home. For our patients this means we are committed to the highest standard of care, excellence in prevention and offer the resources of care coordination to help families navigate a complicated medical system.",
+          "Our mission is to help you raise a healthy child to reach their highest potential and provide the security of excellent medical care when your child is ill."
+        ],
+        "imageURL": ""
+      },
+      "mission": {
+        "pagename": "mission",
+        "title": "Mission and Philosophy",
+        "content": [
+          "Our mission is to help you raise a healthy child to reach their highest potential and provide the security of excellent medical care when your child is ill. ",
+          "We strive to provide the most comprehensive, evidence-based, family-centered care possible for your child.  As an Oregon Patient-Centered Primary Care Medical Home we adhere to the highest standards set for both preventative and acute care by the American Academy of Pediatrics. The foundation of good health is excellent preventative care.  We feel regular well-child visits are essential in building a partnership with your family in order to truly understand your child and their needs. We will carefully follow your child’s growth and development, assess environmental factors and risks and ensure immunizations are current."
+        ],
+        "imageURL": ""
+      }
+    },
+    "services": {
+      "newborns": {
+        "pagename": "newborns",
+        "title": "Newborns",
+        "sections": [
+          {
+            "sectionTitle": "Before your Baby Arrives",
+            "sectionContent": [
+              "Congratulations! We would welcome the opportunity to partner with you as your child’s pediatrician. To help you choose your baby's pediatrician, Olson Pediatrics offers 'meet the doctor' visits. This will allow you to see where our clinic is located and have some first-hand experience with our support staff. You should ask any questions you have about the birth process, hospital experience and what to expect in first few weeks of life. We want you to feel comfortable with your baby's doctor and there is no charge for these visits.",
+              "Our office will be notified of your baby's birth by the hospital staff.",
+              "We highly recommend you attend a birthing class that includes breastfeeding education prior to the birth of your infant. All new parents should have a good parenting book on hand. Please ask your OB/Gyn about any vaccines you may need to protect your baby such as Flu and Tdap."
+            ]
+          },
+          {
+            "sectionTitle": "After your Baby Arrives",
+            "sectionContent": [
+              "Our providers round on newborns at Legacy Meridian Park Hospital. We will come to the hospital to examine your baby within 24 hours of their birth and visit your baby daily during your hospital stay. If your baby is born in a different hospital they will be seen by the on-call pediatrician for that hospital. Please inform their staff that you are a patient of Olson Pediatric Clinic and they will send us all the information regarding your hospitalization. After discharge from the hospital, we will want to see your newborn in our clinic within a two days. Please call to schedule that appointment as soon as possible after your baby is born.",
+              "Some OB/Gyn teams offer circumcision while you are in the hospital. If you prefer to have your baby circumcised after discharge, we can perform this procedure in our office within the first two weeks of life. Please let us know as soon as possible after your baby is born if you need an appointment for circumcision.",
+              "Important: be sure to inform your insurance company that your newborn has arrived! If you have difficulties with securing health insurance for your baby, please call our billing office."
+            ]
+          }
+        ]
+      },
+      "wellchild": {
+        "pagename": "well-child",
+        "title": "Well Child",
+        "sections": {
+          "text": {
+            "sectionTitle": "",
+            "sectionContent": [
+              "We perform the most up-to-date preventative services available, in the way of regularly scheduled physical exams, or well-child visits. At each visit we address family concerns, assess development, medical and dental well-being. We monitor your child’s growth and administer the appropriate vaccines according to the Centers for Disease Control and Prevention Immunization Schedules. By having regular well-child exams done by your primary pediatrician and sharing questions or concerns about your child, we are better able to maintain a partnership with you, ensuring optimum health and well-being.",
+              "Each well-child preventative care visit with your pediatrician will include observation and assessment of age appropriate developmental milestones. This includes screening tests at age 9, 18 and 24 months. Early identification of developmental concerns is crucial and will be addressed by subspecialty and/or early intervention referrals and subsequent care coordination by our clinic as needed. As a designated Oregon Patient-Centered Primary Care Medical Home we are committed to the high standards set by the American Academy of Pediatrics."
+            ]
+          },
+          "schedule": {
+            "sectionTitle": "Schedule for Well-Child Appointments",
+            "sectionTable": {
+              "1": [
+                "VISIT VACCINES 2 days after hospital discharge",
+                "Well-child check",
+                "---"
+              ],
+              "2": [
+                "2 weeks",
+                "Weight check, Newborn State Blood Screen, Postpartum depression screen",
+                "---"
+              ],
+              "3": [
+                "1 month",
+                "Well-child check",
+                "---"
+              ],
+              "4": [
+                "2 months",
+                "Well-child check",
+                "Hep B, Pentacel*, Pneumococcal, Rotavirus (by mouth)"
+              ],
+              "5": [
+                "4 months",
+                "Well-child check",
+                "Hep B (if did not get birth HepB), Pentacel*, Pneumococcal, Rotavirus (by mouth)"
+              ],
+              "6": [
+                "6 months",
+                "Well-child check",
+                "Pentacel*, Hep B, Pneumococcal, Rotavirus, seasonal flu"
+              ],
+              "7": [
+                "9 months",
+                "Well-child check, standardized Developmental Screen",
+                "Seasonal flu (if needed)"
+              ],
+              "8": [
+                "12 months",
+                "Well-child check",
+                "Hep A, MMR*, Varicella*, Pneumococcal"
+              ],
+              "9": [
+                "15 months",
+                "Well-child check",
+                "Dtap, Hib"
+              ],
+              "10": [
+                "18 months",
+                "Well-child check, standardized Developmental Screen, Standardized Autism Screen",
+                "Hep A"
+              ],
+              "11": [
+                "24 months",
+                "Well-child check, standardized Developmental Screen, standardized Autism screen",
+                "Seasonal flu"
+              ],
+              "12": [
+                "30 months",
+                "Well-child check",
+                "---"
+              ],
+              "13": [
+                "3 years",
+                "Well-child check",
+                "Seasonal flu"
+              ],
+              "14": [
+                "4 years",
+                "Well-child check",
+                "Kinrix*, Proquad*, seasonal flu"
+              ],
+              "15": [
+                "5-10 years",
+                "Well-child check",
+                "Seasonal flu"
+              ],
+              "16": [
+                "11 years",
+                "Well-child check",
+                "Tdap*, meningococcal, HPV*(start series of 2 shots), Seasonal flu"
+              ],
+              "17": [
+                "12-14 years",
+                "Well-child check",
+                "Seasonal flu"
+              ],
+              "18": [
+                "15+ years",
+                "Well-child check",
+                "Meningococcal booster, seasonal flu, finish HPV series"
+              ]
+            },
+            "components": [
+              "DTaP - Diphtheria, Tetanus, Pertussis (whooping cough)",
+              "HIB - Haemophilus",
+              "HPV - Human Papilloma Virus",
+              "Pentacel - a combination vaccine containing DTaP, Polio and HIB",
+              "MMR - a combination vaccine containing measles, mumps and rubella",
+              "Varicella - chicken pox vaccine",
+              "Kinrix - a combination vaccine containing DTaP and Polio",
+              "Proquad - a combination vaccine containing MMR and varicella",
+              "Tdap - booster of tetanus, pertussis and diphtheria"
+            ]
+          }
+        }
+      },
+      "sickchild": {
+        "pagename": "sick-child",
+        "title": "Sick Child",
+        "sections": [
+          {
+            "sectionTitle": "Our acute care clinic is open 365 days a year",
+            "sectionContent": [
+              "If your child is sick or has sustained an injury, and you require medical advice a pediatric registered nurse will answer your questions and offer recommendations, including making a same day appointment if needed.  We will do our best to schedule with your primary pediatrician, but if they are not available we can schedule you with one of our other doctors. If you do need an urgent same day appointment, please call as soon as possible, to ensure your child is seen in a timely manner, saving you a trip to the Emergency Department or Urgent Care Center. Lab is available on site, for any injuries or illness that may require lab work."
+            ]
+          },
+          {
+            "sectionTitle": "After Hours",
+            "sectionContent": [
+              "After our normal office hours, the Pediatric Advice Line through Randall Children’s Hospital will be at your service to answer your questions when you call our office number. They are able to triage the call and contact the pediatrician on-call if needed."
+            ]
+          }
+        ]
+      },
+      "mentalhealth": {
+        "pagename": "mental-health",
+        "title": "Mental Health Services",
+        "sections": [
+          {
+            "sectionTitle": "",
+            "sectionContent": [
+              "Your child’s primary pediatrician is able to provide mental/behavioral health care, as well as prescribe and monitor medications, as needed. As part of their preventative care, screening for mental health and behavioral/ school performance problems will be done to monitor your child’s overall well-being. If determined to be necessary a referral to our in- house mental health pediatrician, or the appropriate specialist, can be done.",
+              "Dr. Alvan Pang provides mental/behavioral health services to Olson Pediatric Clinic patients with complex issues and medication needs. He is available on Tuesdays for consult appointments, and his nurse is available that day for phone calls and refills. Dr. Pang will work closely with your child’s primary pediatrician to assure the best possible comprehensive care."
+            ]
+          }
+        ]
+      },
+      "travelclinic": {
+        "pagename": "travel-clinic",
+        "title": "Travel Clinic",
+        "sections": [
+          {
+            "sectionTitle": "",
+            "sectionContent": [
+              "Dr. Jeffrey Hoffman provides Olson Pediatrics' Travel Consultation services. He specializes in the unique considerations of medical needs of children and young adults.",
+              "We recommend a medical consultation prior to traveling to countries where tropical diseases are prevalent.",
+              "Please bring all vaccine records and any pertinent medical records to your appointment. Medical insurance usually does not cover these services, so please be prepared to pay at time of visit.",
+              "Call for your appointments well in advance of scheduled travel, as some vaccines must be given early.",
+              "All vaccines, including yellow fever, and necessary prescriptions, including malaria prophylaxis, are available at the time of your visit."
+            ]
+          }
+        ]
+      },
+      "circumcision": {
+        "pagename": "circumcision",
+        "title": "Circumcision",
+        "sections": [
+          {
+            "sectionTitle": "",
+            "sectionContent": [
+              "This service is available at Olson Pediatric Clinic.  It is best done before three weeks of age. If your newborn boy was not circumcised in the hospital and you still want the procedure done, call the office as soon as possible to schedule an appointment.",
+              "Our staff has extensive experience and excellent outcomes.  We appreciate concerns about pain and stress, for both the newborn and his parents.  You and your child will be treated with the utmost respect and care.",
+              "When insurance does not cover the procedure, we appreciate payment in full, $400.00, at the time of the visit.  Alternate payment schedules can be arranged."
+            ]
+          }
+        ]
+      }
+    },
+    "providers": {
+      "kittams": {
+        "pagename": "kittams",
+        "drname": "Dr. Brian Kittams",
+        "drcontent": [
+          "Dr. Brian Kittams was born and grew up in Great Falls, Montana. He attended college at Harvard University, medical school at the University of Washington, and did his pediatric residency at the University of Iowa. Dr. Kittams has been at Olson Pediatric Clinic since 1989. Dr. Kittams is board certified in pediatrics and is a member of the American Academy of Pediatrics.",
+          "He and his wife, Cathy, have been married for over 30 years, and have two children and three grandchildren. Dr. Kittams enjoys hiking in the mountains, walking on the beach, and occasional cross-country skiing. Being a grandparent has become his new favorite pastime."
+        ],
+        "certifications": [
+          "Certified – American Board of Pediatrics"
+        ]
+      },
+      "hoffman": {
+        "pagename": "hoffman",
+        "drname": "Dr. Jeffrey Hoffman",
+        "drcontent": [
+          "Dr. Jeffrey Hoffman earned his medical degree from Loma Linda University in California in 1977. He completed his residency at the University of Texas, Galveston in 1982 and is board certified in pediatrics. After practicing for 12 years in the Columbia Gorge, Dr. Hoffman joined Olson Pediatrics in 1994.",
+          "Dr. Hoffman is a member of the American Academy of Pediatrics, the American College of Pediatricians, and the Christian Medical/Dental Association",
+          "Dr. Hoffman is married with two grown children: one a physician and one a veterinarian. He was pleased to welcome five grandchildren in four years! When not at the office or playing with his grandchildren, he enjoys writing stories (one published book The Sound of His Voice), bird watching, and working on his home and garden on the Tualatin River."
+        ],
+        "certifications": [
+          "Certified – American Board of Pediatrics"
+        ]
+      },
+      "harper": {
+        "pagename": "harper",
+        "drname": "Dr. Meri Harper",
+        "drcontent": [
+          "Dr. Meri Harper received her medical degree from Vanderbilt University School of Medicine and completed her residency at OHSU/Doernbecher Children's Hospital in 2004. She practiced in Salt Lake City, Utah for five years before returning to Oregon in 2009. Dr. Harper has a special interest in lactation and breastfeeding. She also has an interest in helping underserved populations and has volunteered in international medical missions.",
+          "Dr. Harper and her husband, Sean, have two daughters. She enjoys music, knitting, and hiking."
+        ],
+        "certifications": [
+          "Certified - American Board of Pedicatrics"
+        ]
+      },
+      "graff": {
+        "pagename": "graff",
+        "drname": "Dr. Elizabeth Graff",
+        "drcontent": [
+          "Dr. Elizabeth Graff received her medical degree from the University of Louisville School of Medicine and completed her residency at OHSU/Doernbecher Children's Hospital in 2012. Her special interests in pediatrics include injury and obesity prevention. She is a proficient Spanish speaker.",
+          "Dr. Graff is married and has two active school-aged children. When she is not busy with her family she enjoys running, hiking, traveling, music and reading."
+        ],
+        "certifications": [
+          "Certified – American Board of Pediatrics"
+        ]
+      },
+      "sniffin": {
+        "pagename": "sniffin",
+        "drname": "Dr. Barbara Sniffen",
+        "drcontent": [
+          "Dr. Barbara Sniffen earned her medical degree from the University of Health Sciences in Kansas City in 1987. She then completed her residency in pediatrics at the University of Kansas Medical Center where she served as Chief Resident. She is Board Certified in Pediatrics. ",
+          "She has practiced pediatrics in Grants Pass, OR, for the past 23 years and has special interest in nutrition and sports medicine. She and her husband Carl enjoy spending time with their grandchildren and doing anything outdoors"
+        ],
+        "certifications": [
+          "Certified – American Board of Pediatrics"
+        ]
+      },
+      "pang": {
+        "pagename": "pang",
+        "drname": "Dr. Alvan Pang",
+        "drcontent": [
+          "In 2014, Dr. Pang retired as a primary care pediatrician but continues working at the Clinic one day a week as a Mental Health Consultant for patients with attention deficit disorder, pervasive developmental disorder, depression, and other psychiatric conditions.",
+          "Dr. Alvan Pang received his medical degree from the University of Washington and did his residency at Oregon Health & Science University. He joined Olson Pediatric Clinic in 1988, after practicing at the Metropolitan Clinic in Portland from 1975 until 1988. Dr. Pang has a special interest in mental health.",
+          "Dr. Pang's favorite free time activity is fishing. He enjoys his fishing trips locally and in Mexico and Alaska. He is married and has two daughters."
+        ],
+        "certifications": [
+          ""
+        ]
+      },
+      "pai": {
+        "pagename": "pai",
+        "drname": "Dr. Vinaya Pai",
+        "drcontent": [
+          "Dr. Pai is a Board Certified pediatrician with ten years of experience. She received her medical degree from the University of Arkansas Medical School and completed her residency at The Cleveland Clinic.  Prior to relocating to Portland, she practiced for five years in North Carolina.  Her special interests include obesity prevention and early literacy awareness.",
+          "Dr. Pai enjoys spending her free time with her husband and young son as well as quilting and sewing, cooking vegetarian meals, and traveling to the Oregon Coast.  She loves to read and hopes to foster the same love in her young patients."
+        ],
+        "certifications": [
+          "Certified – American Board of Pediatrics"
+        ]
+      },
+      "palmer": {
+        "pagename": "palmer",
+        "drname": "Dr. Donald Palmer",
+        "drcontent": [
+          "Dr. Donald Palmer founded Olson Pediatric Clinic in 1972. He attended University of Illinois Medical School and did his pediatric residency at Tulane University in New Orleans, and University of Virginia, Charlottesville. Dr. Palmer is a member of the Academy of Pediatrics, the North Pacific Pediatric Society, and the Oregon Pediatric Society.",
+          "Dr. Palmer and his wife, Joan, enjoy spending time at the beach. They have two grown children and a dog. Dr. Palmer retired at the end of 2013."
+        ],
+        "certifications": [
+          ""
+        ]
+      }
+    }
+  }

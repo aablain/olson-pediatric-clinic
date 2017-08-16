@@ -1,0 +1,8 @@
+main {
+  min-height: 150px;
+  width: $container-max-width;
+  max-width: $container-max-width;
+  background-color: lighten($green, 40);
+  margin-left: auto;
+  margin-right: auto;
+}
