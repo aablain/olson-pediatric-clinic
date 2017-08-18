@@ -398,13 +398,25 @@ main.textImage {
     main.textImage aside.text h1 {
       margin: 0px;
       font-size: 2rem;
-      color: #42B137; }
+      color: #42B137;
+      padding-bottom: 16px; }
     main.textImage aside.text h2 {
       margin: 0px;
       font-size: 1.5rem;
-      color: #0088CC; }
-    main.textImage aside.text p a {
-      color: #42B137; }
+      color: #0088CC;
+      padding-top: 10px; }
+      main.textImage aside.text h2 a {
+        text-decoration: none;
+        color: inherit;
+        font-size: inherit; }
+        main.textImage aside.text h2 a:hover {
+          text-decoration: underline; }
+    main.textImage aside.text p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 16px; }
+      main.textImage aside.text p a {
+        color: #42B137; }
     main.textImage aside.text .dataTable {
       width: 100%;
       max-width: 100%;
@@ -449,5 +461,12 @@ main.textImage {
       flex-basis: 100%;
       width: 100%;
       max-width: 100%; } }
+
+.aster {
+  padding-bottom: 16px;
+  padding-left: 16px; }
+
+.spaceBottom {
+  padding-bottom: 16px; }
 
 /*# sourceMappingURL=main.css.map */

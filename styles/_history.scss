@@ -23,14 +23,29 @@ main.textImage {
       margin: 0px;
       font-size: 2rem;
       color: $green;
+      padding-bottom: 16px;
     }
     h2 {
       margin: 0px;
       font-size: 1.5rem;
       color: $blue;
+      padding-top: 10px;
+      a {
+        text-decoration: none;
+        color: inherit;
+        font-size: inherit;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
-    p a {
-      color: $green;
+    p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 16px;
+      a {
+        color: $green;
+      }
     }
     .dataTable {
       width: 100%;
@@ -86,4 +101,13 @@ main.textImage {
       max-width: 100%;
     }
   }
+}
+
+.aster {
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.spaceBottom {
+  padding-bottom: 16px;
 }
