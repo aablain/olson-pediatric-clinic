@@ -16,7 +16,15 @@
     max-height: 800px;
     overflow: hidden; } }
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  background-color: #D9EDD4;
+  background-image: url(../images/tree-with-leafage-web-background-concept.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  box-sizing: border-box; }
+  body * {
+    box-sizing: border-box; }
 
 header {
   max-height: 300px;
@@ -268,11 +276,178 @@ footer {
         flex-basis: 50%; } }
 
 main {
-  min-height: 150px;
-  width: 1000px;
+  min-height: 70vh;
   max-width: 1000px;
-  background-color: #caedc7;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-bottom: 25px; }
+
+main.index {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  main.index section.slideshowHolder {
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 100%; }
+    main.index section.slideshowHolder img {
+      width: 100%;
+      object-fit: contain; }
+  main.index aside {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    main.index aside:first-of-type {
+      flex-basis: 60%;
+      width: 60%; }
+      main.index aside:first-of-type h1 {
+        font-weight: normal; }
+      main.index aside:first-of-type ul li {
+        padding: 5px 0px; }
+    main.index aside:last-of-type {
+      flex-basis: 40%;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap; }
+      main.index aside:last-of-type h2 {
+        text-align: center;
+        background-color: #0088CC;
+        color: #FFFFFF;
+        margin: 0px;
+        padding: 6px 10px;
+        border-radius: 6px; }
+      main.index aside:last-of-type .ul {
+        background-color: #66ccff;
+        color: #0E151B;
+        padding: 6px 10px;
+        border-radius: 6px;
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        main.index aside:last-of-type .ul ul li:first-of-type {
+          padding-bottom: 15px; }
+  main.index section.bottomBoxOfMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    main.index section.bottomBoxOfMain h1 {
+      font-size: 2.5rem;
+      background-color: #42B137;
+      color: #D9EDD4;
+      margin: 0px;
+      padding: 6px 12px;
+      border-radius: 6px; }
+    main.index section.bottomBoxOfMain h3 {
+      margin: 0px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      background-color: #b8e7b3;
+      max-width: 40%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-weight: normal; }
+  @media screen and (max-width: 835px) {
+    main.index {
+      justify-content: center;
+      padding-left: 15px;
+      padding-right: 15px; }
+      main.index aside {
+        flex-basis: 100% !important; }
+        main.index aside:first-of-type {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          flex-wrap: wrap; }
+          main.index aside:first-of-type > * {
+            flex-basis: 100%;
+            width: 100%;
+            max-width: 405px; }
+          main.index aside:first-of-type h1 {
+            text-align: center; }
+        main.index aside:last-of-type {
+          align-items: center; }
+          main.index aside:last-of-type > * {
+            width: 100%;
+            max-width: 90vw; }
+      main.index section.bottomBoxOfMain {
+        justify-content: center; }
+        main.index section.bottomBoxOfMain h1, main.index section.bottomBoxOfMain h3, main.index section.bottomBoxOfMain img {
+          flex-basis: 100% !important;
+          max-width: 405px;
+          text-align: center; } }
+
+main.history section.slideshowHolder {
+  flex-basis: 100%;
+  width: 100%;
+  max-width: 100%; }
+  main.history section.slideshowHolder img {
+    width: 100%;
+    object-fit: contain; }
+
+main.textImage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  main.textImage aside.text {
+    flex-basis: 60%;
+    width: 60%;
+    max-width: 60%;
+    margin-top: 25px; }
+    main.textImage aside.text h1 {
+      margin: 0px;
+      font-size: 2rem;
+      color: #42B137; }
+    main.textImage aside.text h2 {
+      margin: 0px;
+      font-size: 1.5rem;
+      color: #0088CC; }
+    main.textImage aside.text p a {
+      color: #42B137; }
+    main.textImage aside.text .dataTable {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-bottom: 20px; }
+      main.textImage aside.text .dataTable .age {
+        flex-basis: 20%;
+        width: 20%;
+        max-width: 20%;
+        padding: 4px;
+        border: 1px solid #FFFFFF;
+        background-color: #D9EDD4; }
+      main.textImage aside.text .dataTable .visit, main.textImage aside.text .dataTable .vaccines {
+        flex-basis: 40%;
+        width: 40%;
+        max-width: 40%;
+        padding: 4px;
+        border: 1px solid #FFFFFF;
+        background-color: #D9EDD4; }
+      main.textImage aside.text .dataTable .tableTitle {
+        background-color: #0088CC; }
+  main.textImage aside.image {
+    flex-basis: 40%;
+    width: 40%;
+    max-width: 40%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; }
+  @media screen and (max-width: 835px) {
+    main.textImage aside.text {
+      flex-basis: 100%;
+      width: 100%;
+      max-width: 100%; }
+      main.textImage aside.text h1 {
+        text-align: center; }
+    main.textImage aside.image {
+      flex-basis: 100%;
+      width: 100%;
+      max-width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
