@@ -34,6 +34,11 @@ main.providersPage {
         max-width: 100%;
         text-align: center;
         margin: 0px;
+        a {
+          font-size: inherit;
+          color: inherit;
+          text-decoration: none;
+        }
       }
       span {
         width: 100%;
@@ -84,6 +89,14 @@ main.providersPage {
       }
     }
   }
+  @media #{$tablet-roof} {
+    aside.text div.provider {
+      transition: transform ease-in-out 280ms;
+      &:hover {
+        transform: scale(1.04);
+      }
+    }
+  }
   @media #{$tablet} {
     aside.text {
       order: 2;
@@ -91,6 +104,9 @@ main.providersPage {
       justify-content: center;
       h1 {
         text-align: center;
+      }
+      p {
+        font-size: 1.3rem;
       }
       div.provider {
         flex-basis: 45%;

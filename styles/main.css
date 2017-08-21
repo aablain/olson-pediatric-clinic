@@ -627,6 +627,10 @@ main.providersPage {
         max-width: 100%;
         text-align: center;
         margin: 0px; }
+        main.providersPage aside.text div.provider h2 a {
+          font-size: inherit;
+          color: inherit;
+          text-decoration: none; }
       main.providersPage aside.text div.provider span {
         width: 100%;
         max-width: 100%;
@@ -665,6 +669,11 @@ main.providersPage {
           border-radius: 0px 0px 4px 4px; }
         main.providersPage aside.drNav ul a:hover {
           background-color: #D9EDD4; }
+  @media screen and (min-width: 836px) {
+    main.providersPage aside.text div.provider {
+      transition: transform ease-in-out 280ms; }
+      main.providersPage aside.text div.provider:hover {
+        transform: scale(1.04); } }
   @media screen and (max-width: 835px) {
     main.providersPage aside.text {
       order: 2;
@@ -672,6 +681,8 @@ main.providersPage {
       justify-content: center; }
       main.providersPage aside.text h1 {
         text-align: center; }
+      main.providersPage aside.text p {
+        font-size: 1.3rem; }
       main.providersPage aside.text div.provider {
         flex-basis: 45%;
         width: 45%;
