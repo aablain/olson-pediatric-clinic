@@ -183,10 +183,16 @@ nav {
   h4 {
     margin: 0px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     padding: 8px 0px;
     color: lighten($dark, 10);
-    transition: background-color ease-in-out 180ms;
+    transition: background-color ease-in-out 280ms, border-radius ease-in-out 280ms;
+    border: 3px solid green;
+    border-radius: 15px;
+    &:hover:not(.changeBackground) {
+      cursor: pointer;
+      background-color: transparentize($green, 0.8);
+    }
   }
   ul.navlist {
     list-style: none;
@@ -210,8 +216,9 @@ nav {
           text-decoration: none;
           font-size: 1.2rem;
           &:first-of-type {
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             font-weight: bold;
+            font-family: "Gochi Hand", cursive;
           }
           li {
             color: $dark;
@@ -248,6 +255,9 @@ nav {
 
 .changeBackground {
   background-color: $green;
+  transition: border-radius ease-in-out 280ms;
+  border: none;
+  border-radius: 0px;
 }
 .showing {
   animation: menuDrop ease-in-out 800ms;

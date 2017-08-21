@@ -177,10 +177,15 @@ nav {
   nav h4 {
     margin: 0px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     padding: 8px 0px;
     color: #1f2f3d;
-    transition: background-color ease-in-out 180ms; }
+    transition: background-color ease-in-out 280ms, border-radius ease-in-out 280ms;
+    border: 3px solid green;
+    border-radius: 15px; }
+    nav h4:hover:not(.changeBackground) {
+      cursor: pointer;
+      background-color: rgba(66, 177, 55, 0.2); }
   nav ul.navlist {
     list-style: none;
     display: none;
@@ -203,8 +208,9 @@ nav {
           text-decoration: none;
           font-size: 1.2rem; }
           nav ul.navlist li ul a:first-of-type {
-            font-size: 1.5rem;
-            font-weight: bold; }
+            font-size: 1.7rem;
+            font-weight: bold;
+            font-family: "Gochi Hand", cursive; }
           nav ul.navlist li ul a li {
             color: #0E151B;
             padding: 4px 0px; }
@@ -227,7 +233,10 @@ nav {
         color: #FFFFFF; }
 
 .changeBackground {
-  background-color: #42B137; }
+  background-color: #42B137;
+  transition: border-radius ease-in-out 280ms;
+  border: none;
+  border-radius: 0px; }
 
 .showing {
   animation: menuDrop ease-in-out 800ms;
@@ -271,7 +280,8 @@ footer {
       footer .info {
         flex-basis: 40%;
         padding-bottom: 25px;
-        border-right: none; }
+        border-right: none;
+        padding-right: 0px; }
       footer a:first-of-type {
         flex-basis: 50%; } }
 
@@ -411,12 +421,10 @@ main.textImage {
         font-size: inherit; }
         main.textImage aside.text h2 a:hover {
           text-decoration: underline; }
-    main.textImage aside.text p {
+    main.textImage aside.text p, main.textImage aside.text li {
       margin-top: 0px;
       margin-bottom: 0px;
       padding-bottom: 16px; }
-      main.textImage aside.text p a {
-        color: #42B137; }
     main.textImage aside.text .dataTable {
       width: 100%;
       max-width: 100%;
@@ -462,11 +470,245 @@ main.textImage {
       width: 100%;
       max-width: 100%; } }
 
+a {
+  color: #42B137; }
+  a:hover {
+    color: #5dc952; }
+
 .aster {
   padding-bottom: 16px;
   padding-left: 16px; }
 
 .spaceBottom {
   padding-bottom: 16px; }
+
+.noUnderline {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #42B137;
+  background-color: transparent;
+  border-radius: 3px;
+  transition: background-color ease-in-out 180ms; }
+  .noUnderline:hover {
+    background-color: #42B137;
+    color: #FFFFFF !important; }
+
+main.drPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  main.drPage aside.image {
+    flex-basis: 20%;
+    width: 20%;
+    max-width: 20%;
+    padding-top: 25px; }
+    main.drPage aside.image img {
+      max-width: 100%; }
+  main.drPage aside.text {
+    flex-basis: 60%;
+    width: 60%;
+    max-width: 60%; }
+    main.drPage aside.text h1 {
+      color: #42B137; }
+  main.drPage aside.drNav {
+    flex-basis: 20%;
+    width: 20%;
+    max-width: 20%;
+    padding-top: 25px; }
+    main.drPage aside.drNav ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 5px solid #FFFFFF;
+      border-radius: 8px;
+      background-color: #FFFFFF;
+      margin: 0px;
+      padding: 0px; }
+      main.drPage aside.drNav ul a {
+        text-decoration: none;
+        color: #0E151B;
+        width: 100%;
+        max-width: 100%; }
+        main.drPage aside.drNav ul a li {
+          list-style-type: none;
+          padding: 4px;
+          width: 100%;
+          max-width: 100%;
+          text-align: center; }
+        main.drPage aside.drNav ul a:not(:last-of-type) li {
+          border-bottom: 2px solid #D9EDD4; }
+        main.drPage aside.drNav ul a:first-of-type {
+          border-radius: 4px 4px 0px 0px; }
+        main.drPage aside.drNav ul a:last-of-type {
+          border-radius: 0px 0px 4px 4px; }
+        main.drPage aside.drNav ul a:hover {
+          background-color: #D9EDD4; }
+  @media screen and (max-width: 835px) {
+    main.drPage aside.image, main.drPage aside.text, main.drPage aside.drNav {
+      flex-basis: 100%;
+      width: 100%;
+      max-width: 100%; }
+    main.drPage aside.image {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      order: 2; }
+    main.drPage aside.text {
+      order: 3; }
+      main.drPage aside.text h1 {
+        text-align: center;
+        font-size: 2rem; }
+      main.drPage aside.text p {
+        font-size: 1.3rem; }
+    main.drPage aside.drNav {
+      order: 1;
+      padding-top: 10px; }
+      main.drPage aside.drNav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start; }
+        main.drPage aside.drNav ul a {
+          flex-basis: 33.333%;
+          height: auto; }
+          main.drPage aside.drNav ul a:not(:last-of-type) li {
+            border-bottom: none; }
+          main.drPage aside.drNav ul a:nth-of-type(2) li {
+            border-right: 2px solid #D9EDD4;
+            border-left: 2px solid #D9EDD4; }
+          main.drPage aside.drNav ul a:nth-of-type(5) li {
+            border-right: 2px solid #D9EDD4;
+            border-left: 2px solid #D9EDD4; }
+          main.drPage aside.drNav ul a:nth-of-type(8) li {
+            border-right: 2px solid #D9EDD4;
+            border-left: 2px solid #D9EDD4; }
+    main.drPage .boardStatus {
+      padding-top: 40px;
+      text-align: center; }
+    main.drPage .alignCenter {
+      text-align: center; } }
+  @media screen and (max-width: 350px) {
+    main.drPage aside.drNav ul a li {
+      font-size: 0.9rem; } }
+
+main.providersPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  main.providersPage aside.text {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main.providersPage aside.text h1 {
+      flex-basis: 100%;
+      width: 100%;
+      max-width: 100%;
+      font-size: 2.5rem;
+      color: #42B137;
+      text-align: center; }
+    main.providersPage aside.text div.provider {
+      flex-basis: 30%;
+      width: 30%;
+      max-width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 30px; }
+      main.providersPage aside.text div.provider img {
+        max-width: 100%; }
+      main.providersPage aside.text div.provider h2 {
+        font-size: 1.3rem;
+        color: #42B137;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin: 0px; }
+      main.providersPage aside.text div.provider span {
+        width: 100%;
+        max-width: 100%;
+        text-align: center; }
+  main.providersPage aside.drNav {
+    flex-basis: 20%;
+    width: 20%;
+    max-width: 20%;
+    padding-top: 25px; }
+    main.providersPage aside.drNav ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 5px solid #FFFFFF;
+      border-radius: 8px;
+      background-color: #FFFFFF;
+      margin: 0px;
+      padding: 0px; }
+      main.providersPage aside.drNav ul a {
+        text-decoration: none;
+        color: #0E151B;
+        width: 100%;
+        max-width: 100%; }
+        main.providersPage aside.drNav ul a li {
+          list-style-type: none;
+          padding: 4px;
+          width: 100%;
+          max-width: 100%;
+          text-align: center; }
+        main.providersPage aside.drNav ul a:not(:last-of-type) li {
+          border-bottom: 2px solid #D9EDD4; }
+        main.providersPage aside.drNav ul a:first-of-type {
+          border-radius: 4px 4px 0px 0px; }
+        main.providersPage aside.drNav ul a:last-of-type {
+          border-radius: 0px 0px 4px 4px; }
+        main.providersPage aside.drNav ul a:hover {
+          background-color: #D9EDD4; }
+  @media screen and (max-width: 835px) {
+    main.providersPage aside.text {
+      order: 2;
+      flex-basis: 100%;
+      justify-content: center; }
+      main.providersPage aside.text h1 {
+        text-align: center; }
+      main.providersPage aside.text div.provider {
+        flex-basis: 45%;
+        width: 45%;
+        max-width: 45%; }
+    main.providersPage aside.drNav {
+      order: 1;
+      padding-top: 10px;
+      flex-basis: 100%;
+      width: 100%;
+      max-width: 100%; }
+      main.providersPage aside.drNav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start; }
+        main.providersPage aside.drNav ul a {
+          flex-basis: 33.333%;
+          height: auto; }
+          main.providersPage aside.drNav ul a:not(:last-of-type) li {
+            border-bottom: none; }
+          main.providersPage aside.drNav ul a:nth-of-type(2) li {
+            border-right: 2px solid #D9EDD4;
+            border-left: 2px solid #D9EDD4; }
+          main.providersPage aside.drNav ul a:nth-of-type(5) li {
+            border-right: 2px solid #D9EDD4;
+            border-left: 2px solid #D9EDD4; }
+          main.providersPage aside.drNav ul a:nth-of-type(8) li {
+            border-right: 2px solid #D9EDD4;
+            border-left: 2px solid #D9EDD4; } }
+  @media screen and (max-width: 600px) {
+    main.providersPage aside.text div.provider {
+      flex-basis: 100%;
+      width: 100%;
+      max-width: 100%; }
+      main.providersPage aside.text div.provider h2 {
+        font-size: 1.6rem; } }
+  @media screen and (max-width: 350px) {
+    main.providersPage aside.drNav ul a li {
+      font-size: 0.9rem; } }
 
 /*# sourceMappingURL=main.css.map */

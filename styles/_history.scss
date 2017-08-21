@@ -39,13 +39,16 @@ main.textImage {
         }
       }
     }
-    p {
+    p, li {
       margin-top: 0px;
       margin-bottom: 0px;
       padding-bottom: 16px;
-      a {
-        color: $green;
-      }
+      // a {
+      //   color: $green;
+      //   &:hover {
+      //     color: lighten($green, 10);
+      //   }
+      // }
     }
     .dataTable {
       width: 100%;
@@ -103,6 +106,13 @@ main.textImage {
   }
 }
 
+a {
+  color: $green;
+  &:hover {
+    color: lighten($green, 10);
+  }
+}
+
 .aster {
   padding-bottom: 16px;
   padding-left: 16px;
@@ -110,4 +120,18 @@ main.textImage {
 
 .spaceBottom {
   padding-bottom: 16px;
+}
+
+.noUnderline {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid $green;
+  background-color: transparent;
+  border-radius: 3px;
+  transition: background-color ease-in-out 180ms;
+  &:hover {
+    background-color: $green;
+    color: $light !important;
+  }
 }

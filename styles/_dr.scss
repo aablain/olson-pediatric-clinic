@@ -1,0 +1,127 @@
+main.drPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  aside.image {
+    flex-basis: 20%;
+    width: 20%;
+    max-width: 20%;
+    padding-top: 25px;
+    img {
+      max-width: 100%;
+    }
+  }
+  aside.text {
+    flex-basis: 60%;
+    width: 60%;
+    max-width: 60%;
+    h1 {
+      color: $green;
+    }
+  }
+  aside.drNav {
+    flex-basis: 20%;
+    width: 20%;
+    max-width: 20%;
+    padding-top: 25px;
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 5px solid $light;
+      border-radius: 8px;
+      background-color: $light;
+      margin: 0px;
+      padding: 0px;
+      a {
+        text-decoration: none;
+        color: $dark;
+        width: 100%;
+        max-width: 100%;
+        li {
+          list-style-type: none;
+          padding: 4px;
+          width: 100%;
+          max-width: 100%;
+          text-align: center;
+        }
+        &:not(:last-of-type) li {
+          border-bottom: 2px solid $green-background;
+        }
+        &:first-of-type {
+          border-radius: 4px 4px 0px 0px;
+        }
+        &:last-of-type {
+          border-radius: 0px 0px 4px 4px;
+        }
+        &:hover {
+          background-color: $green-background;
+        }
+      }
+    }
+  }
+  @media #{$tablet} {
+    aside.image, aside.text, aside.drNav {
+      flex-basis: 100%;
+      width: 100%;
+      max-width: 100%;
+    }
+    aside.image {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      order: 2;
+    }
+    aside.text {
+      order: 3;
+      h1 {
+        text-align: center;
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+    }
+    aside.drNav {
+      order: 1;
+      padding-top: 10px;
+      ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        a {
+          flex-basis: 33.333%;
+          height: auto;
+          &:not(:last-of-type) li {
+            border-bottom: none;
+          }
+          &:nth-of-type(2) li {
+            border-right: 2px solid $green-background;
+            border-left: 2px solid $green-background;
+          }
+          &:nth-of-type(5) li {
+            border-right: 2px solid $green-background;
+            border-left: 2px solid $green-background;
+          }
+          &:nth-of-type(8) li {
+            border-right: 2px solid $green-background;
+            border-left: 2px solid $green-background;
+          }
+        }
+      }
+    }
+    .boardStatus {
+      padding-top: 40px;
+      text-align: center;
+    }
+    .alignCenter {
+      text-align: center;
+    }
+  }
+  @media #{$tiny-phone} {
+    aside.drNav ul a li {
+      font-size: 0.9rem;
+    }
+  }
+}
