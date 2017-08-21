@@ -129,6 +129,9 @@ main.providersPage {
         transform: scale(1.04);
       }
     }
+    aside.noticeBoard {
+      // padding-left: 10px;
+    }
   }
   @media #{$tablet} {
     justify-content: center;
