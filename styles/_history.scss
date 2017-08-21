@@ -90,6 +90,17 @@ main.textImage {
     align-items: flex-start;
   }
   @media #{$tablet} {
+    section.slideshowHolder {
+      padding-top: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      index: 1;
+      img {
+        width: 120%;
+        min-width: 120%;
+      }
+    }
     aside.text {
       flex-basis: 100%;
       width: 100%;

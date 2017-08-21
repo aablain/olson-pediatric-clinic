@@ -11,6 +11,8 @@ header {
     grid-area: 1/1/4/2;
     img {
       transition: $transform-transition;
+      // max-width: 100%;
+      // object-fit: contain;
     }
     &:hover img {
       transform: rotateZ(18deg);
@@ -21,6 +23,7 @@ header {
     font-size: 2.6rem;
     margin: 0px;
     font-family: $second;
+    // max-width: 66.66%;
   }
   h3 {
     grid-area: 2/6/3/7;
@@ -30,6 +33,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    // max-width: 16.33%;
     a {
       position: relative;
       font-size: inherit;
@@ -75,6 +79,7 @@ header {
     margin-top: 5px;
     margin-bottom: 0px;
     z-index: 5;
+    // min-height: 50px;
     & > li {
       flex-basis: 19%;
     }
@@ -132,6 +137,9 @@ header {
         color: $light;
       }
     }
+  }
+  @media #{$tablet-roof} {
+    min-height: 171px;
   }
   @media #{$tablet} {
     .logo {
@@ -218,7 +226,7 @@ nav {
           &:first-of-type {
             font-size: 1.7rem;
             font-weight: bold;
-            font-family: "Gochi Hand", cursive;
+            font-family: $second;
           }
           li {
             color: $dark;

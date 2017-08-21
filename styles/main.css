@@ -15,6 +15,15 @@
   100% {
     max-height: 800px;
     overflow: hidden; } }
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0px 0px 18px yellow; }
+  40% {
+    text-shadow: 0px 0px 30px #FFFFFF; }
+  60% {
+    text-shadow: 0px 0px 30px #FFFFFF; }
+  100% {
+    text-shadow: 0px 0px 18px yellow; } }
 body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
@@ -136,6 +145,9 @@ header {
       header ul.navlist > li:last-of-type:hover {
         background-color: #5dc952;
         color: #FFFFFF; }
+  @media screen and (min-width: 836px) {
+    header {
+      min-height: 171px; } }
   @media screen and (max-width: 835px) {
     header .logo {
       grid-area: 1/3/4/5;
@@ -459,6 +471,15 @@ main.textImage {
     justify-content: center;
     align-items: flex-start; }
   @media screen and (max-width: 835px) {
+    main.textImage section.slideshowHolder {
+      padding-top: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      index: 1; }
+      main.textImage section.slideshowHolder img {
+        width: 120%;
+        min-width: 120%; }
     main.textImage aside.text {
       flex-basis: 100%;
       width: 100%;
@@ -669,48 +690,84 @@ main.providersPage {
           border-radius: 0px 0px 4px 4px; }
         main.providersPage aside.drNav ul a:hover {
           background-color: #D9EDD4; }
+  main.providersPage aside.noticeBoard {
+    flex-basis: 20%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: 250px; }
+    main.providersPage aside.noticeBoard h2 {
+      text-align: center;
+      background-color: #0088CC;
+      color: #FFFFFF;
+      margin: 0px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 1.3rem;
+      font-weight: lighter; }
+    main.providersPage aside.noticeBoard .ul {
+      background-color: #66ccff;
+      color: #0E151B;
+      padding: 6px 10px;
+      border-radius: 6px;
+      flex-basis: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      main.providersPage aside.noticeBoard .ul ul li:first-of-type {
+        padding-bottom: 15px; }
   @media screen and (min-width: 836px) {
     main.providersPage aside.text div.provider {
       transition: transform ease-in-out 280ms; }
       main.providersPage aside.text div.provider:hover {
         transform: scale(1.04); } }
   @media screen and (max-width: 835px) {
-    main.providersPage aside.text {
-      order: 2;
-      flex-basis: 100%;
+    main.providersPage {
       justify-content: center; }
-      main.providersPage aside.text h1 {
-        text-align: center; }
-      main.providersPage aside.text p {
-        font-size: 1.3rem; }
-      main.providersPage aside.text div.provider {
-        flex-basis: 45%;
-        width: 45%;
-        max-width: 45%; }
-    main.providersPage aside.drNav {
-      order: 1;
-      padding-top: 10px;
-      flex-basis: 100%;
-      width: 100%;
-      max-width: 100%; }
-      main.providersPage aside.drNav ul {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start; }
-        main.providersPage aside.drNav ul a {
-          flex-basis: 33.333%;
-          height: auto; }
-          main.providersPage aside.drNav ul a:not(:last-of-type) li {
-            border-bottom: none; }
-          main.providersPage aside.drNav ul a:nth-of-type(2) li {
-            border-right: 2px solid #D9EDD4;
-            border-left: 2px solid #D9EDD4; }
-          main.providersPage aside.drNav ul a:nth-of-type(5) li {
-            border-right: 2px solid #D9EDD4;
-            border-left: 2px solid #D9EDD4; }
-          main.providersPage aside.drNav ul a:nth-of-type(8) li {
-            border-right: 2px solid #D9EDD4;
-            border-left: 2px solid #D9EDD4; } }
+      main.providersPage aside.text {
+        order: 2;
+        flex-basis: 100%;
+        justify-content: center; }
+        main.providersPage aside.text h1 {
+          text-align: center; }
+        main.providersPage aside.text p {
+          font-size: 1.3rem; }
+        main.providersPage aside.text div.provider {
+          flex-basis: 45%;
+          width: 45%;
+          max-width: 45%; }
+      main.providersPage aside.drNav {
+        order: 1;
+        padding-top: 10px;
+        flex-basis: 100%;
+        width: 100%;
+        max-width: 100%; }
+        main.providersPage aside.drNav ul {
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: flex-start; }
+          main.providersPage aside.drNav ul a {
+            flex-basis: 33.333%;
+            height: auto; }
+            main.providersPage aside.drNav ul a:not(:last-of-type) li {
+              border-bottom: none; }
+            main.providersPage aside.drNav ul a:nth-of-type(2) li {
+              border-right: 2px solid #D9EDD4;
+              border-left: 2px solid #D9EDD4; }
+            main.providersPage aside.drNav ul a:nth-of-type(5) li {
+              border-right: 2px solid #D9EDD4;
+              border-left: 2px solid #D9EDD4; }
+            main.providersPage aside.drNav ul a:nth-of-type(8) li {
+              border-right: 2px solid #D9EDD4;
+              border-left: 2px solid #D9EDD4; }
+      main.providersPage aside.noticeBoard {
+        flex-basis: 100%;
+        width: 100%;
+        max-width: 400px;
+        padding-top: 10px; }
+        main.providersPage aside.noticeBoard ul li b:first-of-type {
+          animation: glow ease-in-out 2300ms infinite; } }
   @media screen and (max-width: 600px) {
     main.providersPage aside.text div.provider {
       flex-basis: 100%;
