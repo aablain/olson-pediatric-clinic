@@ -519,6 +519,8 @@ main.textImage {
       max-width: 100%; }
       main.textImage aside.text h1 {
         text-align: center; }
+      main.textImage aside.text p {
+        font-size: 1.3rem; }
     main.textImage aside.image {
       flex-basis: 100%;
       width: 100%;
