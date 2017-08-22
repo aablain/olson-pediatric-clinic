@@ -38,12 +38,45 @@ body {
 header {
   max-height: 300px;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 33.33% 33.33% 54px;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto; }
+  @supports (display: grid) {
+    header {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 33.33% 33.33% 54px; } }
+  @supports not (display: grid) {
+    header {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-height: 226px; }
+      header h1 {
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+      header h3 {
+        width: 140px; }
+      header ul.navlist {
+        flex-basis: 100%; }
+      @media screen and (max-width: 883px) {
+        header {
+          justify-content: center;
+          max-height: 261px; }
+          header h1, header h3 {
+            flex-basis: 100%;
+            width: 100%;
+            max-width: 100%;
+            text-align: center; }
+          header h1 {
+            order: 2;
+            justify-content: center; }
+          header h3 {
+            order: 1; }
+          header .facebook {
+            display: none !important; } } }
   header .logo {
     grid-area: 1/1/4/2; }
     header .logo img {

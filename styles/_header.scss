@@ -1,9 +1,49 @@
 header {
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 33.33% 33.33% $nav-item-height;
+  }
+  @supports not (display: grid) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 226px;
+    h1 {
+      flex-basis: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    h3 {
+      width: 140px;
+    }
+    ul.navlist {
+      flex-basis: 100%;
+    }
+    @media #{$tablet} {
+      justify-content: center;
+      max-height: 261px;
+      h1, h3 {
+        flex-basis: 100%;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+      }
+      h1 {
+        order: 2;
+        justify-content: center;
+      }
+      h3 {
+        order: 1;
+      }
+      .facebook {
+        display: none !important;
+      }
+    }
+  }
   max-height: 300px;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 33.33% 33.33% $nav-item-height;
   max-width: $container-max-width;
   margin-left: auto;
   margin-right: auto;
