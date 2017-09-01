@@ -9,7 +9,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     max-height: 226px;
-    h1 {
+    h1, & > img {
       flex-basis: 50%;
       display: flex;
       flex-direction: row;
@@ -24,13 +24,13 @@ header {
     @media #{$tablet} {
       justify-content: center;
       max-height: 261px;
-      h1, h3 {
+      h1, h3, & > img {
         flex-basis: 100%;
         width: 100%;
         max-width: 100%;
         text-align: center;
       }
-      h1 {
+      h1, & > img {
         order: 2;
         justify-content: center;
       }
@@ -58,12 +58,12 @@ header {
       transform: rotateZ(18deg);
     }
   }
-  h1 {
+  h1, & > img {
     grid-area: 2/2/3/5;
     font-size: 2.6rem;
     margin: 0px;
     font-family: $second;
-    // max-width: 66.66%;
+    max-width: 100%;
   }
   h3 {
     grid-area: 2/6/3/7;
@@ -191,7 +191,7 @@ header {
       padding-bottom: 20px;
       padding-right: 15px;
     }
-    h1 {
+    h1, & > img {
       grid-area: 4/1/5/7;
       text-align: center;
       z-index: 2;

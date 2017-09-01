@@ -52,7 +52,7 @@ header {
       flex-direction: row;
       flex-wrap: wrap;
       max-height: 226px; }
-      header h1 {
+      header h1, header > img {
         flex-basis: 50%;
         display: flex;
         flex-direction: row;
@@ -65,12 +65,12 @@ header {
         header {
           justify-content: center;
           max-height: 261px; }
-          header h1, header h3 {
+          header h1, header h3, header > img {
             flex-basis: 100%;
             width: 100%;
             max-width: 100%;
             text-align: center; }
-          header h1 {
+          header h1, header > img {
             order: 2;
             justify-content: center; }
           header h3 {
@@ -83,11 +83,12 @@ header {
       transition: transform ease-in-out 180ms; }
     header .logo:hover img {
       transform: rotateZ(18deg); }
-  header h1 {
+  header h1, header > img {
     grid-area: 2/2/3/5;
     font-size: 2.6rem;
     margin: 0px;
-    font-family: "Gochi Hand", cursive; }
+    font-family: "Gochi Hand", cursive;
+    max-width: 100%; }
   header h3 {
     grid-area: 2/6/3/7;
     transition: transform ease-in-out 180ms;
@@ -190,7 +191,7 @@ header {
       justify-content: center;
       padding-bottom: 20px;
       padding-right: 15px; }
-    header h1 {
+    header h1, header > img {
       grid-area: 4/1/5/7;
       text-align: center;
       z-index: 2; }
