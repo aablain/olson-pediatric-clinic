@@ -8,6 +8,14 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  & > a:first-of-type {
+    img {
+      max-height: 83px;
+      height: 83px;
+      max-width: 83px;
+      width: 83px;
+    }
+  }
   .info {
     display: flex;
     flex-direction: column;

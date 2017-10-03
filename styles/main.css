@@ -298,6 +298,11 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between; }
+  footer > a:first-of-type img {
+    max-height: 83px;
+    height: 83px;
+    max-width: 83px;
+    width: 83px; }
   footer .info {
     display: flex;
     flex-direction: column;
@@ -373,7 +378,7 @@ main.index {
         padding: 6px 10px;
         border-radius: 6px; }
       main.index aside:last-of-type .ul {
-        background-color: #66ccff;
+        background-color: #B2DBF0;
         color: #0E151B;
         padding: 6px 10px;
         border-radius: 6px;
@@ -743,7 +748,7 @@ main.providersPage {
       font-size: 1.3rem;
       font-weight: lighter; }
     main.providersPage aside.noticeBoard .ul {
-      background-color: #66ccff;
+      background-color: #B2DBF0;
       color: #0E151B;
       padding: 6px 10px;
       border-radius: 6px;
